@@ -27,17 +27,12 @@ html {
     height: 190px;
     width: 100%;
 }
-/*
-.header{
-    border-bottom-style:solid;
-    border-radius:4px;
-    border-color:#F6C725;
-    padding-bottom:20px;
-    padding-top:5px;
-    background-color:#F6C725;
-    height: 180px;
+.footer h3 {
+    text-align: center;
+    width:100%;
+    margin-top: 5%;
 }
-*/
+
 .header img  {
     border-style:solid;
     border-width:6px;
@@ -100,21 +95,32 @@ a {
 }
 
 /* Contact Style */
+#contact {
+    height: 100%;
+
+}
+
+#contactImg {
+    height: 100%;
+    float: left;
+    width: 97%;
+    border-style: solid;
+}
+
+#contactImg img {
+    width: 40%;
+    height: 25%;
+}
+
 #gmap_canvas, #gmap {
-    width: 550px;
-    height: 450px;
+    width: 63%;
+    height: 50%;
 
 }
 #gmap {
     overflow: hidden;
 }
 
-#main img {
-    width: 550px;
-    height: 450px;
-    padding-left: -10px;
-
-}
 
 #main fieldset {
     width: 28%;
@@ -182,4 +188,49 @@ h3 {
 
 strong.size, strong.size1, strong.size2 {
     font-size: 30px;
+}
+
+/* Menu */
+
+#nav ul {
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    list-style-type: none;
+    background-color: #E2D8D8;
+    padding-left: 0px;
+    padding-buttom: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+#nav li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-style: solid;
+    background-color: #DAB246;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 5px;
+    border-color: #9EC0AB;
+}
+
+/* Home */
+
+#home {
+    width: 50%;
+    height: 30%;
+    border-style: double;
+    border-width: 15px;
+    border-radius: 10%;
+    border-color: #DB787F;
+    background-color: #F1DADC;
+    text-align: center;
+    margin-left: 24%;
+}
+#home h1 {
+    color: #DB787F;
 }
