@@ -30,7 +30,7 @@ html {
 .footer h3 {
     text-align: center;
     width:100%;
-    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .header img  {
@@ -81,8 +81,7 @@ a {
 #main {
     margin-left:20px;
     width: 97%;
-    height: 1650px;
-    border-style: solid;
+    height: 1950px;
 }
 
 #aligning h1 {
@@ -91,34 +90,42 @@ a {
     font-size:40px;
     color: #2e816c;
     border-style: solid;
-    width: 500px;
-    margin-left: 350px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
     border-radius: 40px;
     background-color: #edfbf6;
 }
 
 /* Contact Style */
-#contact {
+/*
+#info {
     width:100%;
     height: 100%;
+    border-style: solid;
+}
+*/
+#image {
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+}
+
+#image img {
+    width: 40%;
+    height: 25%;
+    border-style: solid;
     float: left;
 }
 
-#contact img {
-    width: 35%;
-    height: 18%;
-    border-style: solid;
-}
-
 #gmap_canvas, #gmap {
-    width: 59%;
+    width: 60%;
     height: 50%;
 
 }
 #gmap {
     overflow: hidden;
 }
-
 
 #main fieldset {
     width: 28%;
@@ -144,7 +151,7 @@ legend {
     border-color: #2e816c;
     background-color: #edfbf6;
     width: 97%;
-    height: 100%;
+    height: 120%;
     border-radius: 5%;
     border-width: 10px;
 }
@@ -178,6 +185,10 @@ legend {
 
 h3 {
     color: #2e816c;
+}
+h4 {
+    color: #2e816c;
+
 }
 
 #tab {
@@ -218,17 +229,77 @@ strong.size, strong.size1, strong.size2 {
 
 /* Home */
 
-#home {
-    width: 50%;
-    height: 30%;
+#combo {
+    width: 27%;
+    height: 23%;
     border-style: double;
     border-width: 15px;
-    border-radius: 10%;
+    border-radius: 6%;
     border-color: #DB787F;
     background-color: #F1DADC;
+    margin-left: 20%;
+    list-style-type:none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 125%;
     text-align: center;
-    margin-left: 24%;
+}
+#home li {
+    margin-bottom: -3%;
+}
+#free {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #DB787F;
+}
+#special {
+    margin-left: 3%;
+    text-align: left;
 }
 #home h1 {
     color: #DB787F;
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: -1%;
+}
+h4.title {
+    font-family: "Brush Script MT", cursive;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 200%;
+    color:#DB787F;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+strong.bold, strong.bold1 {
+    font-weight: bolder;
+    font-size: 125%;
+    color: #2E816C;
+}
+strong {
+    color: #DB787F;
+}
+#accept {
+    width: 20%;
+    height: 20%;
+    border-style: solid;
+    float: left;
+}
+#home img {
+    margin-top: -40%;
+    margin-left: 40%;
+    position: fixed;
+    width: 20%;
+    height: 10%;
+}
+
+/* Gallery */
+#gallery h1 {
+    font-size: 500%;
+    text-align: center;
+}
+
+/* Menu */
+#menu img {
+    margin-left: 20%;
 }
