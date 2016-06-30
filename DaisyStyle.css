@@ -9,7 +9,8 @@
     padding-left:5px;
     padding-right:5px;
     padding-top:5px;
-    height: 100%;
+    width: 1750px;
+    height: 2000px;
 }
 
 html {
@@ -150,11 +151,14 @@ legend {
     border-style: double;
     border-color: #2e816c;
     background-color: #edfbf6;
-    width: 97%;
-    height: 120%;
+    width: 1250px;
+    height: 1750px;
     border-radius: 5%;
     border-width: 10px;
+    list-style: none;
+    margin-left: 175px;
 }
+
 
 .buffet li {
     list-style-type: none;
@@ -172,15 +176,15 @@ legend {
     color: #ff1c29;
 }
 
-#dinner img {
-    width: 31.75%;
-    height: 31.75%;
+.dinner img {
+    width: 370px;
+    height: auto;
     border-style: solid;
     float: left;
-    margin-left: 0.5%;
+    margin-left: 2%;
     margin-right: 0.5%;
     margin-bottom: 1%;
-    border-radius: 6%;
+    border-radius: 6%
 }
 
 h3 {
